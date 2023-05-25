@@ -1,10 +1,6 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable eol-last */
-/* eslint-disable prettier/prettier */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable prettier/prettier */
+
 import React from 'react';
-import { TouchableOpacity, Text, StyleSheet,Pressable } from 'react-native';
+import { Text, StyleSheet,Pressable } from 'react-native';
 
 const CustomButton = ({ title,onPress}) => {
   return (
