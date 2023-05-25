@@ -1,0 +1,15 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "userName": "trafdual",
+            "password": "123456",
+            "firtName": "Trà Hoàng",
+            "lastName": "Nguyễn",
+            "email": "tranhph26979@fpt.edu.vn",
+            "gender": "Male",
+            "createDate": "25/5/2023",
+            "updateDate": "25/5/2023"
+        }
+    ]
+}
