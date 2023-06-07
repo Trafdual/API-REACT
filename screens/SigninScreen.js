@@ -6,7 +6,7 @@ import CustomInput from '../Custom/CustomInput';
 import log from '../log';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
+import StaffScreen from './StaffScreen';
 const SigninScreen =()=>{
     const navigation = useNavigation();
     // Khai báo các thông tin input
@@ -15,6 +15,7 @@ const SigninScreen =()=>{
     const [usernameError, setUsernameError] = useState('');
     const [password, setPassword] = useState('');
     const [passwordError, setPasswordError] = useState('');
+
 
     // Hàm điều hướng màn hình
     const navigateToHome = () => {
@@ -54,6 +55,7 @@ const SigninScreen =()=>{
         if (usernameError) setUsernameError('');
         if (passwordError) setPasswordError('');
     };
+
 
     // Funtion lưu thông tin authentication vào AsyncStorage
     // AsyncStorage chỉ đơn giản là lưu dữ liệu vào tài liệu trên ổ cứng của điện thoại
